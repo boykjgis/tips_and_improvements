@@ -19,8 +19,8 @@ print(a)
 # Will result in not enough values to unpack (ValueError)
 
 a, b, *c = (1, 2, 3, 4, 5)
-print(a, b, c)
+print(f'a: {a}, b: {b}, c: {c}')
 
 a, b, *_ = (1, 2, 3, 4, 5)
-print(a, b)
-print(_)
+print(f'a: {a}, b: {b}')
+print(f'_: {_}')
